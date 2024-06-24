@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# 🧲 Magnetic Icons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto simples de ícones magneticos com React e GSAP.
+Link preview do projeto: [Magnetic Icons](https://adrwaan.github.io/magnetic-icons/).
 
-Currently, two official plugins are available:
+## 📸 Imagens do projeto:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Image 1 in a Desktop](/core/img1.png)
+![Image 1 in a Desktop with hover](/core/img2.png)
 
-## Expanding the ESLint configuration
+## 🚩 Especificações:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O projeto foi criado em React e Typescript utilizando o Vite, com CSS e GSAP foi possível criar este tipo de animações. Para executar o projeto, primeiramente você precisa clonar o repositório, instalar as dependências, fazer a build e depois executá-lo.
 
-- Configure the top-level `parserOptions` property like this:
+```shell
+git clone https://github.com/Adrwaan/magnetic-icons.git magnetic-icons
+cd ./magnetic-icons
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+pnpm install
+pnpm run build
+pnpm run start
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Obs: _Se você não tiver o gerenciador de pacotes PNPM, você pode utilizar o NPM normalmente!_
+
+## 💻 Tecnologias utilizadas no projeto:
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+
+- Desenvolvido por [@Adrwaan](https://github.com/Adrwaan)
